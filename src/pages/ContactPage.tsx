@@ -50,22 +50,24 @@ export default function ContactPage({
     setIsSubmitting(true);
     setSubmitError('');
 
+    const accessKey = import.meta.env.VITE_FORMS_ACCESS_KEY;
+
+    if (!accessKey) {
+      setSubmitError(
+        'The enquiry form is not configured correctly. Please contact us directly.',
+      );
+      setIsSubmitting(false);
+      return;
+    }
+
     try {
       const formData = new FormData(e.currentTarget);
 
-      // Web3Forms access key
-      formData.append(
-        'access_key',
-        import.meta.env.VITE_FORMS_ACCESS_KEY,
-      );
-
-      // Email subject
+      formData.append('access_key', accessKey);
       formData.append(
         'subject',
         'New Project Enquiry — Sudesa Interiors',
       );
-
-      // Name shown as sender/source
       formData.append(
         'from_name',
         'Sudesa Interiors Website',
@@ -81,7 +83,10 @@ export default function ContactPage({
 
       const result = await response.json();
 
+      console.log('Web3Forms response:', result);
+
       if (result.success) {
+        // Only show confirmation after Web3Forms succeeds
         setSubmitted(true);
 
         setForm({
@@ -96,14 +101,14 @@ export default function ContactPage({
       } else {
         setSubmitError(
           result.message ||
-            'Something went wrong. Please try again.',
+          'We could not send your enquiry. Please try again.',
         );
       }
     } catch (error) {
       console.error('Web3Forms submission error:', error);
 
       setSubmitError(
-        'Unable to send your enquiry. Please try again or contact us directly.',
+        'Something went wrong while sending your enquiry. Please try again.',
       );
     } finally {
       setIsSubmitting(false);
@@ -180,26 +185,38 @@ export default function ContactPage({
             {/* Form */}
             <div className="lg:col-span-7">
               {submitted ? (
-                <div className="reveal flex min-h-[400px] flex-col items-center justify-center border border-cream-400/10 px-8 text-center">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-full border border-gold-500">
+                <div className="reveal flex min-h-[450px] flex-col items-center justify-center border border-cream-400/10 px-8 text-center">
+                  <div className="flex h-20 w-20 items-center justify-center rounded-full border border-gold-500">
                     <Check
-                      size={28}
+                      size={32}
                       strokeWidth={1.5}
                       className="text-gold-500"
                     />
                   </div>
 
-                  <h2 className="mt-8 font-serif text-3xl text-cream-100 lg:text-4xl">
+                  <p className="mt-8 label-meta">
+                    Thank You
+                  </p>
+
+                  <h2 className="mt-4 font-serif text-3xl text-cream-100 lg:text-5xl">
                     Enquiry Received
                   </h2>
 
-                  <p className="mt-4 max-w-md text-base font-light leading-relaxed text-cream-400">
-                    Thank you for reaching out. A member of our
-                    studio will be in touch within two business days
-                    to discuss your project.
+                  <p className="mt-5 max-w-lg text-base font-light leading-relaxed text-cream-400">
+                    Thank you for reaching out to Sudesa Interiors.
+                    We've received your project enquiry and a member
+                    of our studio will be in touch within two business
+                    days to discuss your project.
                   </p>
 
+                  <div className="mt-8 flex items-center gap-3 text-sm text-gold-500">
+                    <span className="h-px w-8 bg-gold-500/50" />
+                    <span>We look forward to speaking with you</span>
+                    <span className="h-px w-8 bg-gold-500/50" />
+                  </div>
+
                   <button
+                    type="button"
                     onClick={() => {
                       setSubmitted(false);
                       setSubmitError('');
@@ -214,7 +231,7 @@ export default function ContactPage({
                         message: '',
                       });
                     }}
-                    className="mt-8 btn-outline"
+                    className="mt-10 btn-outline"
                   >
                     Send Another Enquiry
                   </button>
