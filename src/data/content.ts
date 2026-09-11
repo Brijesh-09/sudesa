@@ -415,33 +415,27 @@ export const founderPortrait = '/images/punit-mishra-founder.jpeg';
 export const journalImages = [
   {
     reelUrl: 'https://www.instagram.com/sudesainteriors/reel/DMVAJJCx04e/',
-    preview:
-      'https://scontent.cdninstagram.com/v/t51.82787-15/521588295_17943729921009989_4364674055688176685_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=GBDOIlyqbPoQ7kNvwEZPrQv&_nc_oc=AdqgizCDPxK1IAEh0b1q8gAiCiJtwsAIBqMaHGVj7Rrps4OS-bNtYvy-BAxgLoSmLts&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=J0aYQwOgmNzljO5ssDqIVg&_nc_ss=70689&oh=00_AQIUaiyBwXB_E4qpFDZ6_v1h2ZUqFqcuL6zM7z4CjMud_A&oe=6A9DF4CA',
+    preview: '/journal/rp-6.jpeg',
   },
   {
     reelUrl: 'https://www.instagram.com/sudesainteriors/reel/DaN4CqZNOx-/',
-    preview:
-      'https://scontent.cdninstagram.com/v/t51.71878-15/730015604_3556562511160739_158145320891341641_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=jkKqdavZHi4Q7kNvwFUvHmw&_nc_oc=Adotw5ukGTmiRGPQ15lmNIBqmuSw7bnfPFRH0UHFV9cvixUcD_i4yUzYu8io4Qp2UyY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=uSS3gRuyHBY9Z4BtAXNatA&_nc_ss=70689&oh=00_AQIxYjwEiqtPsO5tnIO4prBMycXEF7y6dRyJG6bF5tj-1w&oe=6A9E1787',
+    preview: '/journal/rp-1.jpeg',
   },
   {
     reelUrl: 'https://www.instagram.com/sudesainteriors/reel/DUuV0jiCNrl/',
-    preview:
-      'https://scontent.cdninstagram.com/v/t51.71878-15/632040609_1546815869911313_2030954523206089201_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hiBDeN2uvOsQ7kNvwFxzTPQ&_nc_oc=Adoz4vCN8KEx9Ue3A4MInFHRb3pXGr4zuuYtFKVwmioAyT3K3WNhnFoZmylzxuN8miI&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=bNPAMHH63M1W_ja3Tna1jQ&_nc_ss=70689&oh=00_AQIoqFPZWJqGmFBUcRGgp5QbfBb0kc_jBmqlHgUbFCpEFg&oe=6A9E01DF',
+    preview: '/journal/rp-2.jpeg',
   },
   {
     reelUrl: 'https://www.instagram.com/sudesainteriors/reel/DO1ZPsWjUgs/',
-    preview:
-      'https://scontent.cdninstagram.com/v/t51.71878-15/552480766_1338585867618801_3035243355326336054_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vx74gY7gwfIQ7kNvwFnju_H&_nc_oc=AdqlyXSTVBE1B5SR2xzxMxNqyLxJFkiYrFD860XrXUrOO2xznY7Gj1kjfLy3q6hzK4w&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=4pk0YafQzBdNR3a5Uxk-Rg&_nc_ss=70689&oh=00_AQI7iXHQ8yNN-xXRRWT6AzPmF3BuEiVqt4kCEw164wHZyQ&oe=6A9DFB28',
+    preview: '/journal/rp-3.jpeg',
   },
   {
     reelUrl: 'https://www.instagram.com/sudesainteriors/reel/DOnGOURDAXp/',
-    preview:
-      'https://scontent.cdninstagram.com/v/t51.71878-15/549223340_2676522226022061_7929546600723212855_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=NPhvzjQFiScQ7kNvwGSTSk9&_nc_oc=Adq3t6aMAbgTpFeVEWJy_5RKFXx09qDG5d9Wv2TQ5BvuH3K08hz5HjQOhZE9cksvMJ4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=v58_locIsXDjhAFo76rSUQ&_nc_ss=70689&oh=00_AQLM0GCWrZrIHVamr1CspS77mFaslI8ZjnKClp9WxFjRow&oe=6A9E139F',
+    preview: '/journal/rp-4.jpeg',
   },
   {
     reelUrl: 'https://www.instagram.com/sudesainteriors/reel/DNnjQLkNu5E/',
-    preview:
-      'https://scontent.cdninstagram.com/v/t51.71878-15/537253697_1962164097869880_9090593431483494886_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=gc-IIjzfzgEQ7kNvwHbGQr8&_nc_oc=AdrvCLw1BUNDqmBL8aHV2nW_ogpg5Q_JcLzhI4eEp3ztMpBsXIZFp1Uo4OmmQb74pH8&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=k456iwJ4HjB5w_fz8jx09Q&_nc_ss=70689&oh=00_AQK3cxJo85aKajLIHFdOlb9alSeWu2L_VorYGU-uQIR0JA&oe=6A9E14D9',
+    preview: '/journal/rp-5.jpeg',
   },
 ];
 
