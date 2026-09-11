@@ -252,14 +252,13 @@ export default function ProjectDetailPage({
 
       {/* CTA */}
       <CTASection
-        headline="Let's create a space worth remembering."
-        body="For residences, workplaces and commercial spaces, Sudesa Interiors brings together design, detail and execution to create interiors built to last."
-        primaryCta="Start Your Project"
-        secondaryCta="Talk to Us"
-        // onPrimary={() => onNavigate('/contact')}
-        phoneNumber="+919XXXXXXXXX"
-        onSecondary={() => onNavigate('/contact')}
-      />
+  headline="Let's create a space worth remembering."
+  body="For residences, workplaces and commercial spaces, Sudesa Interiors brings together design, detail and execution to create interiors built to last."
+  primaryCta="Start Your Project"
+  secondaryCta="Talk to Us"
+  onPrimary={() => onNavigate('/contact')}
+  phoneNumber="+919XXXXXXXXX"
+/>
 
       {/* Next projects */}
       <section className="bg-ink-950 px-6 py-20 lg:px-12">
