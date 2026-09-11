@@ -56,7 +56,7 @@ export default function ContactPage({
       // Web3Forms access key
       formData.append(
         'access_key',
-        import.meta.env.FORMS_ACCESS_KEY,
+        import.meta.env.VITE_FORMS_ACCESS_KEY,
       );
 
       // Email subject
