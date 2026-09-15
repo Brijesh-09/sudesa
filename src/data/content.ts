@@ -156,7 +156,7 @@ export const projects: Project[] = [
   {
     slug: 'premium-residence-mumbai',
     number: '04',
-    name: 'Premium Commercial Space',
+    name: 'Premium Residence Space',
     category: 'Residential',
     location: 'Mumbai, India',
     image: '/projects/borivali-1/IMG_3898.JPG',
@@ -389,7 +389,7 @@ export const studioInfo = {
   founder: 'Punit Mishra',
   founderTitle: 'Founder & Principal Designer',
   phone: '+91 91520 75635',
-  email: 'studio@sudesainteriors.com',
+  email: 'punitkumarmishra@gmail.com',
   location: 'Mumbai, India',
   whatsapp: '+91 91520 75635',
   instagram: '@sudesainteriors',

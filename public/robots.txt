@@ -1,5 +1,4 @@
 User-agent: *
-Allow:
-Disallow:
+Allow: /
 
 Sitemap: https://sudesainteriors.com/sitemap.xml
